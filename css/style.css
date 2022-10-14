@@ -61,3 +61,8 @@ a:hover{
 .session button{
     margin-top: 1%;
 }
+select{
+    border-color: #dc3545;
+    background-color: var(--bs-gray-900);
+    color: #dc3545;
+}

@@ -11,13 +11,6 @@
 </head>
 <body>
     <h1>!NOTFLIX</h1>
-    <div class="login">
-    {if !isset($smarty.session.USER_ID)}
-        <a href="login">login</a>
-    {elseif isset($smarty.session.USER_ID)}
-        <a href="logout">logout</a>
-    {/if}
-    </div>
-    <div class="content">
+    
     
     
