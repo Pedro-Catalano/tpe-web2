@@ -33,8 +33,18 @@
 
                             <form action="edit/movie/{$movie->ID}" method="POST">
                             <input type="text" name="title" placeholder="Titulo">
-                            <input type="text" name="director" placeholder="Director">
-                            <input type="text" name="genre" placeholder="Genero">
+                            <select name="director" placeholder="Director">
+                                <option>Director</option>
+                                {foreach from=$directors item=$director}
+                                    <option value="{$director->Director}">{$director->Director}</option>
+                                {/foreach}
+                            </select>
+                            <select name="genre" placeholder="Genero">
+                                <option>Genre</option>
+                                {foreach from=$genres item=$genre}
+                                    <option value="{$genre->Genre}">{$genre->Genre}</option>
+                                {/foreach}
+                            </select>
                             <input type="submit" value="Editar">
                             </form>
 

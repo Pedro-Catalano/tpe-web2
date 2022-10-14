@@ -3,7 +3,7 @@ body {
     color: #dc3545;
     justify-content: center;
 }
-h1, .login, h2 {
+h1, .login, h2, .warning {
    text-align: center;
 }
 h1{
@@ -65,4 +65,7 @@ select{
     border-color: #dc3545;
     background-color: var(--bs-gray-900);
     color: #dc3545;
+}
+.warning a{
+    color:#dc3545;
 }

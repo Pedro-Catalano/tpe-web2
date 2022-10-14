@@ -1,5 +1,5 @@
 {include file="header.tpl"}
-<div>
+<div class="warning">
     <h2>ADVERTENCIA</h2>
     <p>borar este genero o director borrara las siguientes {$number} peliculas</p>
     <ul>

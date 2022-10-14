@@ -27,7 +27,7 @@ class DirectorsModel{
         return $this->db->lastInsertid();
 
     }
-    public function updateMovie($director_id, $director){
+    public function updateDirector($director_id, $director){
         $query = $this->db->prepare("UPDATE directors SET director=? WHERE director_id=?");
         $query->execute(array($director, $director_id));
     }
