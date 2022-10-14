@@ -1,4 +1,5 @@
 {include file="header.tpl"}
+
 <div class="warning">
     <h2>ADVERTENCIA</h2>
     <p>borar este genero o director borrara las siguientes {$number} peliculas</p>
@@ -11,4 +12,5 @@
     <a href={BASE_URL}>NO</a>
     <a href="delete/{$delete}/{$delete_id}">SI</a>
 </div>
+
 {include file="footer.tpl"}
